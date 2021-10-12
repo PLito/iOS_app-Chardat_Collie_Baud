@@ -1,7 +1,7 @@
 # iOS_app
 
 
-The project gathers ***Pierre-Loup CHARDAT, Romain BAUD, Kilian COLLIE***.
+The project gathers ***Pierre-Loup CHARDAT, Romain BAUD, Kilian COLLIE***. :+1:
 The project consists in creating an app listing bars and pint prices in Odense. 
 This project was inspired by "MrGoodBeer", an app that helps to find cheap bars and cheap pints in France. As this app is very useful but does not exist in Denmark, we want to create a similar, but simpler app for the centre of Odense.
 
