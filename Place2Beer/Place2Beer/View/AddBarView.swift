@@ -51,8 +51,9 @@ struct AddBarView: View {
                     
                 }
             }
-           // .navigationBarTitle("Add Bar")
+            .navigationBarTitle("Add Bar")
     }
+        
         
 }
 }

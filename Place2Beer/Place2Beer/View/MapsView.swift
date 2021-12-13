@@ -11,17 +11,14 @@ import MapKit
 
 
 struct MapsView: View {
-    
+    @StateObject private var mapViewModel = MapViewModel()
     @Environment(\.managedObjectContext) var managedObjectContext
     let bars: FetchedResults<Bar>
 
-
-    @State private var region : MKCoordinateRegion =
-        MKCoordinateRegion(center: CLLocationCoordinate2D(latitude:55.39594, longitude:10.38831), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
     
     var body: some View {
         NavigationView {
-            Map(coordinateRegion: $region, showsUserLocation: false, annotationItems: bars) {
+            Map(coordinateRegion: $mapViewModel.region, showsUserLocation: false, annotationItems: bars) {
                 bar in MapAnnotation(coordinate: .init(latitude: CLLocationDegrees(bar.latitude), longitude: CLLocationDegrees(bar.longitude))){
                     NavigationLink(destination: BarDetailView(bar: bar)) {
                         Text(String(bar.price))
@@ -30,9 +27,11 @@ struct MapsView: View {
                             .foregroundColor(Color.white)
                             .background(Color.red.cornerRadius(10))
                     }
+                            
+                    }
                 }
-            }
         }
+        
     }
 
 }
