@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B38D1672761102000CA2F12 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38D1662761102000CA2F12 /* RatingView.swift */; };
+		6B38D16A27611F6000CA2F12 /* BarsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38D16927611F6000CA2F12 /* BarsListView.swift */; };
+		6BEBC7B6275F8A40008D2A2B /* Place2BeerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7B5275F8A40008D2A2B /* Place2BeerApp.swift */; };
+		6BEBC7B8275F8A40008D2A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7B7275F8A40008D2A2B /* ContentView.swift */; };
+		6BEBC7BA275F8A42008D2A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEBC7B9275F8A42008D2A2B /* Assets.xcassets */; };
+		6BEBC7BD275F8A42008D2A2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEBC7BC275F8A42008D2A2B /* Preview Assets.xcassets */; };
+		6BEBC7BF275F8A42008D2A2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7BE275F8A42008D2A2B /* Persistence.swift */; };
+		6BEBC7C2275F8A42008D2A2B /* Place2Beer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7C0275F8A42008D2A2B /* Place2Beer.xcdatamodeld */; };
+		6BEBC7D0275F96EC008D2A2B /* AddBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7CF275F96EC008D2A2B /* AddBarView.swift */; };
+		6BEBC7D3275FA38C008D2A2B /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7D2275FA38C008D2A2B /* MapsView.swift */; };
+		6BEBC7D6275FA3CE008D2A2B /* BarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7D5275FA3CE008D2A2B /* BarViewModel.swift */; };
+		6BEBC7DA275FA937008D2A2B /* BarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEBC7D9275FA937008D2A2B /* BarDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B38D1662761102000CA2F12 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		6B38D16927611F6000CA2F12 /* BarsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsListView.swift; sourceTree = "<group>"; };
+		6BEBC7B2275F8A40008D2A2B /* Place2Beer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Place2Beer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEBC7B5275F8A40008D2A2B /* Place2BeerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place2BeerApp.swift; sourceTree = "<group>"; };
+		6BEBC7B7275F8A40008D2A2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BEBC7B9275F8A42008D2A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BEBC7BC275F8A42008D2A2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BEBC7BE275F8A42008D2A2B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6BEBC7C1275F8A42008D2A2B /* Place2Beer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Place2Beer.xcdatamodel; sourceTree = "<group>"; };
+		6BEBC7C3275F8A42008D2A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEBC7CF275F96EC008D2A2B /* AddBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBarView.swift; sourceTree = "<group>"; };
+		6BEBC7D2275FA38C008D2A2B /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		6BEBC7D5275FA3CE008D2A2B /* BarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewModel.swift; sourceTree = "<group>"; };
+		6BEBC7D9275FA937008D2A2B /* BarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEBC7AF275F8A40008D2A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEBC7A9275F8A40008D2A2B = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7B4275F8A40008D2A2B /* Place2Beer */,
+				6BEBC7B3275F8A40008D2A2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEBC7B3275F8A40008D2A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7B2275F8A40008D2A2B /* Place2Beer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEBC7B4275F8A40008D2A2B /* Place2Beer */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7CD275F8A9F008D2A2B /* ViewModel */,
+				6BEBC7CB275F8A75008D2A2B /* View */,
+				6BEBC7CA275F8A6D008D2A2B /* Model */,
+				6BEBC7B5275F8A40008D2A2B /* Place2BeerApp.swift */,
+				6BEBC7BE275F8A42008D2A2B /* Persistence.swift */,
+				6BEBC7B7275F8A40008D2A2B /* ContentView.swift */,
+				6BEBC7B9275F8A42008D2A2B /* Assets.xcassets */,
+				6BEBC7C3275F8A42008D2A2B /* Info.plist */,
+				6BEBC7C0275F8A42008D2A2B /* Place2Beer.xcdatamodeld */,
+				6BEBC7BB275F8A42008D2A2B /* Preview Content */,
+			);
+			path = Place2Beer;
+			sourceTree = "<group>";
+		};
+		6BEBC7BB275F8A42008D2A2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7BC275F8A42008D2A2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BEBC7CA275F8A6D008D2A2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BEBC7CB275F8A75008D2A2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7CF275F96EC008D2A2B /* AddBarView.swift */,
+				6BEBC7D2275FA38C008D2A2B /* MapsView.swift */,
+				6BEBC7D9275FA937008D2A2B /* BarDetailView.swift */,
+				6B38D1662761102000CA2F12 /* RatingView.swift */,
+				6B38D16927611F6000CA2F12 /* BarsListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BEBC7CD275F8A9F008D2A2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BEBC7D5275FA3CE008D2A2B /* BarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BEBC7B1275F8A40008D2A2B /* Place2Beer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEBC7C6275F8A42008D2A2B /* Build configuration list for PBXNativeTarget "Place2Beer" */;
+			buildPhases = (
+				6BEBC7AE275F8A40008D2A2B /* Sources */,
+				6BEBC7AF275F8A40008D2A2B /* Frameworks */,
+				6BEBC7B0275F8A40008D2A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Place2Beer;
+			productName = Place2Beer;
+			productReference = 6BEBC7B2275F8A40008D2A2B /* Place2Beer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEBC7AA275F8A40008D2A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6BEBC7B1275F8A40008D2A2B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6BEBC7AD275F8A40008D2A2B /* Build configuration list for PBXProject "Place2Beer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BEBC7A9275F8A40008D2A2B;
+			productRefGroup = 6BEBC7B3275F8A40008D2A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEBC7B1275F8A40008D2A2B /* Place2Beer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEBC7B0275F8A40008D2A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEBC7BD275F8A42008D2A2B /* Preview Assets.xcassets in Resources */,
+				6BEBC7BA275F8A42008D2A2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEBC7AE275F8A40008D2A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B38D16A27611F6000CA2F12 /* BarsListView.swift in Sources */,
+				6BEBC7D6275FA3CE008D2A2B /* BarViewModel.swift in Sources */,
+				6BEBC7DA275FA937008D2A2B /* BarDetailView.swift in Sources */,
+				6BEBC7C2275F8A42008D2A2B /* Place2Beer.xcdatamodeld in Sources */,
+				6B38D1672761102000CA2F12 /* RatingView.swift in Sources */,
+				6BEBC7D0275F96EC008D2A2B /* AddBarView.swift in Sources */,
+				6BEBC7BF275F8A42008D2A2B /* Persistence.swift in Sources */,
+				6BEBC7D3275FA38C008D2A2B /* MapsView.swift in Sources */,
+				6BEBC7B8275F8A40008D2A2B /* ContentView.swift in Sources */,
+				6BEBC7B6275F8A40008D2A2B /* Place2BeerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BEBC7C4275F8A42008D2A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BEBC7C5275F8A42008D2A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BEBC7C7275F8A42008D2A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Place2Beer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Place2Beer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.Place2Beer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BEBC7C8275F8A42008D2A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Place2Beer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Place2Beer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.Place2Beer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEBC7AD275F8A40008D2A2B /* Build configuration list for PBXProject "Place2Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEBC7C4275F8A42008D2A2B /* Debug */,
+				6BEBC7C5275F8A42008D2A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEBC7C6275F8A42008D2A2B /* Build configuration list for PBXNativeTarget "Place2Beer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEBC7C7275F8A42008D2A2B /* Debug */,
+				6BEBC7C8275F8A42008D2A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BEBC7C0275F8A42008D2A2B /* Place2Beer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BEBC7C1275F8A42008D2A2B /* Place2Beer.xcdatamodel */,
+			);
+			currentVersion = 6BEBC7C1275F8A42008D2A2B /* Place2Beer.xcdatamodel */;
+			path = Place2Beer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BEBC7AA275F8A40008D2A2B /* Project object */;
+}
