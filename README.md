@@ -26,6 +26,6 @@ name : `The Old Irish Pub`
 longitude : `10.383633`  
 latitude : `55,395434`  
 price : `40`  
-This should be enough to display the bars on the map.  
+This should be enough to display the bar on the map of the app.  
 
 Other notable content added to the app is an interactive map (click on pins to see the bar page), a bar listing page, the ability to add and remove bars, and a night mode on the bar page to open the app at night.
