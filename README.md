@@ -20,12 +20,12 @@ The current idea of the application is that it opens on a map centred on the pos
 Just download the .zip file from github, then open "Place2Beer" -> "Place2Beer.xcodeproj" and run the simulator.
 
 
-Amongst the announced features, we used GPS as an iOS feature, DataCore for a local database. An online database with Heroku and MongoDB was considered but too complex to install, so we did not use a web service call. This implies that the list of bars must be added by the user by filling in the bar information.
-Example :
-name : `The Old Irish Pub`
-longitude : `10.383633`
-latitude : `55,395434`
-price : `40`
-This should be enough to display the bars on the map.
+Amongst the announced features, we used GPS as an iOS feature, DataCore for a local database. An online database with Heroku and MongoDB was considered but too complex to install, so we did not use a web service call. This implies that the list of bars must be added by the user by filling in the bar information.  
+Example :  
+name : `The Old Irish Pub`  
+longitude : `10.383633`  
+latitude : `55,395434`  
+price : `40`  
+This should be enough to display the bars on the map.  
 
 Other notable content added to the app is an interactive map (click on pins to see the bar page), a bar listing page, the ability to add and remove bars, and a night mode on the bar page to open the app at night.
